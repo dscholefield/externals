@@ -32,8 +32,7 @@ class IPAddress:
         else:
             raise NotAnIPException
 
-    
-        
+# pre test suite            
 if __name__ == "__main__":
     ip1 = IPAddress("123.45.67.111")
     ip2 = IPAddress("701.1.1.5")
